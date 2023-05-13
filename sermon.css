@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.logo{
+    background-image: url(srni.png);
+    width: 62px;
+    height: 35px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.bac{
+    width: 100%;
+    height: 359px;
+    background-image: url(232.jpg);  
+}
+.dashb{
+    font-family:calendron;
+    margin-left: 550px;
+    margin-top: 20px;
+    word-spacing: 35px;
+}
+ul{
+    display: flex;
+    float: inline-end;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #0e4a88;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.4sec ease-in-out;
+}
+.dashb a:hover{
+    color: #f58b1f;
+}
+.vid video{
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+
+.vid h1{
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.vid span{
+    font-size: 15px;
+}
+.vidd video{
+    width: 350px;
+    height: 250px;
+    margin-top: -275px;
+    margin-left: 500px;  
+}
+.vidd h1{
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: -45px;
+}
+.vidd span{
+    font-size: 15px;
+}
+.viddd video{
+    width: 350px;
+    height: 250px;
+    margin-top: -275px;
+    margin-left: 900px; 
+}
+.viddd h1{
+    font-size: 25px;
+    margin-left: 900px;
+    margin-top: -45px;
+}
+.viddd span{
+    font-size: 15px;
+}
